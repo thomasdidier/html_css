@@ -1,0 +1,21 @@
+.rom{
+  max-width: 1140;
+  margin: : 0 auto;
+}
+header{background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/onepunch.jpg); /* Ajout background et filtre */
+  background: -webkit-linear-gradient(to right, #da4453, #89216b); /* Chrome 10-25, Safari 5.1-6 */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+
+.mangas-text-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%)
+  width: 1140px;
+}
