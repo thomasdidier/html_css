@@ -1,21 +1,104 @@
-.rom{
-  max-width: 1140;
-  margin: : 0 auto;
+.row
+{
+  max-width: 1140px;
+  margin:: 0 auto;
 }
-header{background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/onepunch.jpg); /* Ajout background et filtre */
-  background: -webkit-linear-gradient(to right, #da4453, #89216b); /* Chrome 10-25, Safari 5.1-6 */
+
+header{background-image: linear-gradient(rgba(117, 127, 154, 1),rgba(215, 221, 232, 0)), url(img/img.jpeg); /* Ajout background et filtre */
+  background: -webkit-linear-gradient(to right, #89216b, #F8EFBA); /* Chrome 10-25, Safari 5.1-6 */
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
-
-
-
-
-.mangas-text-box{
+/*code page index*/
+.titre-principal-acceuil{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%)
+  transform: translate(-50%,-50%)
   width: 1140px;
 }
+
+.lien-page-shonen-sur-acceuil{
+position: absolute;
+top: 52%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+
+}
+
+.Titre-principal-page-shonen{
+  position: absolute;
+  top:24%;
+  left:30%;
+  transform: translate(-50%, -50%)
+  width: 1140px;
+}
+
+.lien-page-acceuil{
+position: absolute;
+top: 5%;
+left: 15%;
+transform: translate(-50%,-50%)
+width: 1140px;
+}
+
+.paragraphe-shonen{
+position: absolute;
+top: 50%;
+left: 30%;
+transform: translate(-50%,-50%)
+width: 1140;
+}
+
+.lien-page-seinen{
+position: absolute;
+top: 5%;
+left: 70%;
+transform: translate(-50%, -50%)
+width: auto;
+}
+
+.btn:hover{
+  border:3px,10px
+}
+
+.btn{
+  padding: 10px, 30px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  font-weight: 400;
+}
+
+.btn-full{
+  background-color: blue;
+}
+.btn-ghost{
+  color: red;
+}
+
+.btn-gohst:hover{
+background-color: blue;
+}
+.logo{
+
+height: 100px;
+float:left;
+}
+.main-nav{
+float: right;
+list-style: none;
+margin-top: 20px;
+}
+
+.main-nav li{
+  display: inline-block;
+margin-left: 40px;
+
+}
+.main-nav li a{
+text-decoration: none;
+color: #fff;
+font-size: 90%;
+ }
