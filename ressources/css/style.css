@@ -4,101 +4,100 @@
   margin:: 0 auto;
 }
 
-header{background-image: linear-gradient(rgba(117, 127, 154, 1),rgba(215, 221, 232, 0)), url(img/img.jpeg); /* Ajout background et filtre */
+header{background-image: linear-gradient(rgba(117, 127, 154, 1),rgba(215, 221, 232, 0)), url(img/background.png); /* Ajout background et filtre */
   background: -webkit-linear-gradient(to right, #89216b, #F8EFBA); /* Chrome 10-25, Safari 5.1-6 */
-  background-size: cover;
-  background-position: center;
+  background-size: auto;
+  background-position: auto;
   height: 100vh;
 }
 /*code page index*/
-.titre-principal-acceuil{
+.message-de-bienvenue{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 40%;
   transform: translate(-50%,-50%)
   width: 1140px;
+  font-family: sans-serif;
 }
-
-.lien-page-shonen-sur-acceuil{
-position: absolute;
-top: 52%;
-left: 50%;
-transform: translate(-50%,-50%);
-
+.message-de-bienvenue{
 
 }
 
-.Titre-principal-page-shonen{
-  position: absolute;
-  top:24%;
-  left:30%;
-  transform: translate(-50%, -50%)
-  width: 1140px;
+
+
+/********************************* boutons du site *********************************/
+.btn:hover
+{
+  border:3px,10px;
 }
 
-.lien-page-acceuil{
-position: absolute;
-top: 5%;
-left: 15%;
-transform: translate(-50%,-50%)
-width: 1140px;
-}
-
-.paragraphe-shonen{
-position: absolute;
-top: 50%;
-left: 30%;
-transform: translate(-50%,-50%)
-width: 1140;
-}
-
-.lien-page-seinen{
-position: absolute;
-top: 5%;
-left: 70%;
-transform: translate(-50%, -50%)
-width: auto;
-}
-
-.btn:hover{
-  border:3px,10px
-}
-
-.btn{
-  padding: 10px, 30px;
+.btn
+{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+  background-color: rgba(235, 87, 87, 1);
+  background-color: rgba(0, 0, 0, 0.60);
+  padding: 5px 10px;
   border: 1px solid #fff;
-  border-radius: 100px;
-  font-weight: 400;
+  border-radius: 8px;
+  font-weight: 200;
 }
 
-.btn-full{
+.btn-full
+{
   background-color: blue;
 }
-.btn-ghost{
+.btn-ghost
+{
   color: red;
 }
 
 .btn-gohst:hover{
 background-color: blue;
 }
-.logo{
 
+.logo{
 height: 100px;
 float:left;
 }
+
 .main-nav{
 float: right;
 list-style: none;
-margin-top: 20px;
+margin-top: 250px;
 }
 
-.main-nav li{
+.main-nav li
+{
   display: inline-block;
-margin-left: 40px;
-
+margin-left: 75px;
 }
-.main-nav li a{
+
+.main-nav li a
+{
 text-decoration: none;
 color: #fff;
-font-size: 90%;
+font-size: 300;
  }
+
+/********************** Positionement titre et paragraphe shonen **************************/
+.titre-p1
+{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+font-size:
+}
+
+.paragraphe-1
+{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 120%;
+}
