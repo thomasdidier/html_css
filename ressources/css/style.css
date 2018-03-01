@@ -1,13 +1,13 @@
 .row
 {
   max-width: 1140px;
-  margin:: 0 auto;
+  margin: 20px;
 }
 
 header{background-image: linear-gradient(rgba(117, 127, 154, 1),rgba(215, 221, 232, 0)), url(img/background.png); /* Ajout background et filtre */
   background: -webkit-linear-gradient(to right, #89216b, #F8EFBA); /* Chrome 10-25, Safari 5.1-6 */
   background-size: auto;
-  background-position: auto;
+  background-position: cover;
   height: 100vh;
 }
 /*code page index*/
@@ -60,6 +60,10 @@ background-color: blue;
 }
 
 .logo{
+position: absolute;
+top: 10%;
+left: 5%;
+transform: translate(-50%,-50%);
 height: 100px;
 float:left;
 }
@@ -83,11 +87,21 @@ color: #fff;
 font-size: 300;
  }
 
-/********************** Positionement titre et paragraphe shonen **************************/
+/********************** Positionement titre, paragraphe et images shonen **************************/
+.titre-h1-shonen
+{
+position: absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%, -50%); 
+font-size: 40px;
+}
+
+
 .titre-p1
 {
   position: absolute;
-  top: 10%;
+  top: 60%;
   left: 50%;
   transform:translate(-50%, -50%);
 font-size:
@@ -96,8 +110,31 @@ font-size:
 .paragraphe-1
 {
   position: absolute;
-top: 50%;
+top: 90%;
 left: 50%;
 transform: translate(-50%,-50%);
 font-size: 120%;
+background-color: #fff;
+padding: 20px 20px;
+padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 8px;
+font-weight: 200;
+
+}
+
+.logo-interogation
+{
+position: absolute;
+top: 70%;
+left: 62%;
+transform: translate(-50%, -50%);
+}
+
+.logo-interogation-2
+{
+position: absolute;
+top: 69%;
+left: 37%;
+transform: translate(-50%, -50%);
 }
