@@ -33,8 +33,6 @@ header
 {
   transition: opacity 2s;
   position: relative;
-  top: 50%;
-  transform: translate(-50%,0%);
   font-size: 20px;
   background-color: linear-gradient rgba(235, 87, 87, 1);
   background-color: rgba(0, 0, 0, 0.60);
@@ -43,6 +41,7 @@ header
   border-radius: 8px;
   font-weight: 200;
 }
+
 
 .btn-full
 {
@@ -71,12 +70,13 @@ float:left;
 float: right;
 list-style: none;
 margin-top: 200px;
+position: center;
 }
 
 .main-nav li
 {
   display: inline-block;
-margin-left: 50px;
+margin-left: 100px;
 }
 
 .main-nav li a
@@ -85,6 +85,7 @@ text-decoration: none;
 color: #fff;
 font-size: 300;
  }
+
 
 /********************** Positionement titre, paragraphe et images shonen **************************/
 .titre-h1-shonen
@@ -107,29 +108,24 @@ font-size:
 }
 
 .paragraphe-1
-{
+{ 
+text-align: center;
+
+
 font-size: 150%;
 background-color: #fff;
-padding: 20px 20px;
-padding: 5px 10px;
-  border: 1px solid #000;
-  border-radius: 8px;
-font-weight: 200;
+padding: 30px 30px;
+border: 1px solid #000;
+border-radius: 8px;
+padding: 15px 15px;
 }
 
-.paragraphe-1
-{
-
-text-align: center;
- margin-right: 10%;
-  margin-left: 10%;
-}
 
 .logo-interogation
 {
 position: absolute;
 top: 70%;
-left: 62%;
+left: 82%;
 transform: translate(-50%, -50%);
 }
 
@@ -137,9 +133,19 @@ transform: translate(-50%, -50%);
 {
 position: absolute;
 top: 69%;
-left: 37%;
+left: 17%;
 transform: translate(-50%, -50%);
 }
+
+.logo-interogation-1-et-2{
+
+  position: absolute;
+  left: 25%;
+top:70%;
+}
+
+
+
 
 .ion-social-dropbox-outline
 {
