@@ -33,8 +33,14 @@ header
 {
   
   position: relative;
+<<<<<<< HEAD
   margin: auto;
   
+=======
+  top: 50%;
+  left: -100%;
+  transform: translate(-50%,0%);
+>>>>>>> master
   font-size: 20px;
   background-color: linear-gradient rgba(235, 87, 87, 1);
   background-color: rgba(0, 0, 0, 0.60);
