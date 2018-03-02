@@ -10,7 +10,7 @@ header
   background: -webkit-linear-gradient(to right, #89216b, #F8EFBA); /* Chrome 10-25, Safari 5.1-6 */
   background-size: auto;
   background-position: cover;
-  margin-bottom: -200px;
+  margin-bottom: -104px;
   height: 100vh;
 }
 /*code page index*/
@@ -31,24 +31,17 @@ header
 
 .btn
 {
-  
+  transition: opacity 2s;
   position: relative;
-<<<<<<< HEAD
-  margin: auto;
-  
-=======
   top: 50%;
-  left: -100%;
   transform: translate(-50%,0%);
->>>>>>> master
   font-size: 20px;
   background-color: linear-gradient rgba(235, 87, 87, 1);
   background-color: rgba(0, 0, 0, 0.60);
   padding: 5px 10px;
   border: 1px solid #fff;
   border-radius: 8px;
-  font-weight: 100;
-
+  font-weight: 200;
 }
 
 .btn-full
@@ -96,7 +89,10 @@ font-size: 300;
 /********************** Positionement titre, paragraphe et images shonen **************************/
 .titre-h1-shonen
 {
-margin-left:40%; 
+position: absolute;
+top: 10%;
+left: 45%;
+ 
 font-size: 40px;
 }
 
@@ -119,20 +115,15 @@ padding: 5px 10px;
   border: 1px solid #000;
   border-radius: 8px;
 font-weight: 200;
-margin-left: 100px;
-margin-right:100px;
 }
 
-/*.paragraphe-1
+.paragraphe-1
 {
 
 text-align: center;
  margin-right: 10%;
   margin-left: 10%;
-width: auto;
-overflow: hidden;
 }
-
 
 .logo-interogation
 {
@@ -140,46 +131,15 @@ position: absolute;
 top: 70%;
 left: 62%;
 transform: translate(-50%, -50%);
-width: auto;
-overflow: hidden;
-}*/
-
-.range-logo-interogation
-{
-  list-style: none;
-}
-
-.range-logo-interogation li
-{
-  display: block;
-  float: right;
-  width: 45%;
-}
-
-.logo-interogation 
-{
-  width: auto;
-overflow: hidden;
-margin-top: -400px;
-
 }
 
 .logo-interogation-2
 {
-  width: auto;
-overflow: hidden;
-margin-top: -400px;
+position: absolute;
+top: 69%;
+left: 37%;
+transform: translate(-50%, -50%);
 }
-
-
-
-
-.logo-interogation
-{
-  width: auto;
-overflow: hidden;
-}
-
 
 .ion-social-dropbox-outline
 {
@@ -247,7 +207,6 @@ h2::before{
   display: block;
   float: left;
   width: 25%;
-  margin-top: 150px;
 }
 
 .photo
@@ -263,7 +222,7 @@ background-color: #000;
 transform: scale(1.5);
 transition: transform 2s;
 width: 100%;
-
+border-radius: 8px;
 
  }
 
@@ -274,42 +233,3 @@ width: 100%;
 transform: scale(1);
 
  }
-
-
-
-
-
-
-
-
-
-/******************************************* parti newsletter **************************************/
-
-
-
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[5]='BIRTHDAY';ftypes[5]='birthday'; /*
- * Translated default messages for the $ validation plugin.
- * Locale: FR
- */
-$.extend($.validator.messages, {
-        required: "Ce champ est requis.",
-        remote: "Veuillez remplir ce champ pour continuer.",
-        email: "Veuillez entrer une adresse email valide.",
-        url: "Veuillez entrer une URL valide.",
-        date: "Veuillez entrer une date valide.",
-        dateISO: "Veuillez entrer une date valide (ISO).",
-        number: "Veuillez entrer un nombre valide.",
-        digits: "Veuillez entrer (seulement) une valeur numérique.",
-        creditcard: "Veuillez entrer un numéro de carte de crédit valide.",
-        equalTo: "Veuillez entrer une nouvelle fois la même valeur.",
-        accept: "Veuillez entrer une valeur avec une extension valide.",
-        maxlength: $.validator.format("Veuillez ne pas entrer plus de {0} caractères."),
-        minlength: $.validator.format("Veuillez entrer au moins {0} caractères."),
-        rangelength: $.validator.format("Veuillez entrer entre {0} et {1} caractères."),
-        range: $.validator.format("Veuillez entrer une valeur entre {0} et {1}."),
-        max: $.validator.format("Veuillez entrer une valeur inférieure ou égale à {0}."),
-        min: $.validator.format("Veuillez entrer une valeur supérieure ou égale à {0}.")
-});}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
