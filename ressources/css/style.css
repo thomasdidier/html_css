@@ -1,24 +1,33 @@
 .row
 {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: auto;
 }
+body
+{
+	background-image: url(img/background.png);
+}
+
+
+
 
 header
 {
+  display: block;
   background-image: linear-gradient(rgba(117, 127, 154, 1),rgba(215, 221, 232, 0)), url(img/background.png); /* Ajout background et filtre */
   background: -webkit-linear-gradient(to right, #89216b, #F8EFBA); /* Chrome 10-25, Safari 5.1-6 */
   background-size: auto;
-  background-position: cover;
-  margin-bottom: -104px;
-  height: 100vh;
+  
 }
 /*code page index*/
 .message-de-bienvenue{
- background-position: auto;
-  
-  width: 1140px;
-  font-family: sans-serif;
+text-align: center;
+border: 2px solid #000;
+margin-top: 10%;
+margin-bottom: 10%;
+border-radius: 50px;
+padding-top: 5px;
+background-image: linear-gradient(rgba(217, 167, 199, 1) ,rgba(255, 252, 220, 1));
 }
 
 
@@ -31,21 +40,26 @@ header
 
 .btn
 {
+
   transition: opacity 2s;
-  position: relative;
   font-size: 20px;
   background-color: linear-gradient rgba(235, 87, 87, 1);
   background-color: rgba(0, 0, 0, 0.60);
-  padding: 5px 10px;
   border: 1px solid #fff;
   border-radius: 8px;
   font-weight: 200;
+  margin-left: 10%;
+
+
+  
 }
 
 
 .btn-full
 {
   background-color: blue;
+
+ ;
 }
 .btn-ghost
 {
@@ -58,25 +72,22 @@ transition: opacity 3s;
 }
 
 .logo{
-position: absolute;
-top: 10%;
-left: 5%;
-transform: translate(-50%,-50%);
+margin: 0;
+margin-right: 50px:;
 height: 100px;
-float:left;
+
 }
 
 .main-nav{
 float: right;
 list-style: none;
-margin-top: 200px;
-position: center;
+margin-right: 22%;
 }
 
 .main-nav li
 {
-  display: inline-block;
-margin-left: 100px;
+display: inline-block;
+
 }
 
 .main-nav li a
@@ -90,23 +101,15 @@ font-size: 300;
 /********************** Positionement titre, paragraphe et images shonen **************************/
 .titre-h1-shonen
 {
-position: absolute;
-top: 10%;
-left: 45%;
- 
-font-size: 40px;
+
+text-align: center;
+border: 2px solid #000;
+margin-top: 10%;
+margin-bottom: 10%;
+border-radius: 50px;
+padding-top: 5px;
+background-image: linear-gradient(rgba(217, 167, 199, 1) ,rgba(255, 252, 220, 1));
 }
-
-
-.titre-p1
-{
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform:translate(-50%, -50%);
-font-size:
-}
-
 .paragraphe-1
 { 
 text-align: center;
@@ -116,36 +119,9 @@ font-size: 150%;
 background-color: #fff;
 padding: 30px 30px;
 border: 1px solid #000;
-border-radius: 8px;
+border-radius: 15px;
 padding: 15px 15px;
 }
-
-
-.logo-interogation
-{
-position: absolute;
-top: 70%;
-left: 82%;
-transform: translate(-50%, -50%);
-}
-
-.logo-interogation-2
-{
-position: absolute;
-top: 69%;
-left: 17%;
-transform: translate(-50%, -50%);
-}
-
-.logo-interogation-1-et-2{
-
-  position: absolute;
-  left: 25%;
-top:70%;
-}
-
-
-
 
 .ion-social-dropbox-outline
 {
@@ -174,12 +150,15 @@ color: blue;
 
 .position-footer
 {
-  background-position: 0 auto;
+ 
+bottom: 0;
   background-image: linear-gradient(rgba(217, 167, 199, 1) ,rgba(255, 252, 220, 1));
   border-radius: : 4px;
+  margin: auto;
 }
 section{
-  padding: 80px0;
+  margin: auto;
+ 
 }
 
 h2{
@@ -204,38 +183,45 @@ h2::before{
   text-align: center;
   line-height: 175%;
 }
-
-.range-photo{
+/***************************** position logo et titre p1********************************/
+.logo-interogation-1-et-2{
   list-style: none;
+  width: 100%;
+  margin-left: -16%;
+  margin-top:10%;
 }
 
-.range-photo li{
+.logo-interogation-1-et-2 li{
   display: block;
-  float: left;
-  width: 25%;
+  float: right;
+  width: 40%;
+  margin-top: 20%;
+  margin-left: -10%;
+  margin-right:-10%;
+  margin-top: -4%;
+  
 }
 
-.photo
+.img
 {
 width: auto;
 overflow: hidden;
-background-color: #000;
-
+max-width: 70%;
 }
- .photo img
+ .img img
  {
-  opacity: 0.40;
-transform: scale(1.5);
-transition: transform 2s;
+ 
 width: 100%;
-border-radius: 8px;
+height: auto;
+}
 
- }
+.titre-p1
+{
+text-align: center;
+margin-left: 0;
+margin-top: 30%;
+max-width: 70%
+border: 2px solid #000;
+}
 
- .photo img:hover
- {
-  opacity: 1;
-  transition: opacity 2s;
-transform: scale(1);
 
- }
