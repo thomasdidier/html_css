@@ -676,17 +676,7 @@ ul.social-icons li.pinterest:hover {
     height: 100%;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-image: -moz-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background-image: -webkit-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background-image: -ms-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    opacity: 0.9;
-}
+
 
 #home_banner h3 {
     font-size: 55px;
@@ -1099,80 +1089,7 @@ ul.social-icons li.pinterest:hover {
 ------------------------------*/
 
 
-/*------------------------------
-    13. START TEAM SECTION
-------------------------------*/
 
-#team .team-slider .person {
-    position: relative;
-}
-
-#team .team-slider .person {
-    cursor: pointer;
-}
-
-#team .team-slider .person .person-info {
-    color: #fff;
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    -o-transform: translateY(100%);
-    transform: translateY(100%);
-    -webkit-transition: all 0.3s cubic-bezier(0.52, 1.64, 0.37, 0.66);
-    -moz-transition: all 0.3s cubic-bezier(0.52, 1.64, 0.37, 0.66);
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s cubic-bezier(0.52, 1.64, 0.37, 0.66);
-}
-
-#team .team-slider .person:hover .person-info {
-    -webkit-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -o-transform: translateY(0%);
-    transform: translateY(0%);
-}
-
-#team .team-slider .person .person-info .info-bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0 15px;
-}
-
-#team .team-slider .person .person-info h4 {
-    font-size: 25px;
-    margin: 0;
-}
-
-#team .team-slider .person .person-info h6 {
-    font-size: 13px;
-    font-style: italic;
-    margin: 0 0 15px 0;
-    font-weight: 300;
-}
-
-#team .team-slider .person .person-info p {
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-#team .team-slider .owl-dots {
-    margin-top: 65px;
-}
-
-#team .team-slider .owl-dots .owl-dot span {
-    background: #2a3b71;
-    width: 13px;
-    height: 13px;
-}
-
-#team .team-slider .owl-dots .owl-dot.active span {
-    background: #bf095d;
-}
-
-
-/*------------------------------
-    13. END TEAM SECTION
-------------------------------*/
 
 
 /*------------------------------
@@ -2097,25 +2014,4 @@ blockquote p {
 ------------------------------*/
 
 
-/*------------------------------
-    23. START FOOTER SECTION
-------------------------------*/
 
-footer {
-    background-image: -moz-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background-image: -webkit-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background-image: -ms-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-}
-
-footer p {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 400;
-    color: #fff;
-    padding: 25px 0;
-}
-
-
-/*------------------------------
-    23. END FOOTER SECTION
-------------------------------*/
